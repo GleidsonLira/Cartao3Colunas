@@ -1,4 +1,31 @@
 .container__principal {
+    max-width: 1440px;
+    min-height: 100vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__1 {
+    width: 280px;
+    height: 450px;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.container__2 {
+    width: 280px;
+    height: 450px;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+
+.container__3 {
+    width: 280px;
+    height: 450px;    
+    background-color: brown;
+    border-radius: 5px;
 }
 
