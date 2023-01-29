@@ -7,26 +7,35 @@
 }
 
 .container__1 {
-    width: 280px;
+    width: 270px;
     height: 450px;
-    background-color: blue;
+    background-color: hsl(31, 77%, 52%);
     border-radius: 5px;
     text-align: center;
+    font-size: 15px;
 }
 
 .container__2 {
-    width: 280px;
+    width: 270px;
     height: 450px;
-    background-color: blueviolet;
+    background-color: hsl(184, 100%, 22%);
     border-radius: 5px;
     text-align: center;
 }
 
 .container__3 {
-    width: 280px;
+    width: 270px;
     height: 450px;    
-    background-color: brown;
+    background-color: hsl(179, 100%, 13%);    
     border-radius: 5px;
     text-align: center;
+}
+
+.botao {
+    border-radius: 26px;
+    padding: 10px 30px;
+    font-size: 16px;
+    border: none;
+    color: 
 }
 
