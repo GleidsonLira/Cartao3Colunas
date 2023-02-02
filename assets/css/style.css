@@ -1,46 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&family=Lexend+Deca:wght@400;500;700&display=swap');
 
-.container__principal {
-    max-width: 1440px;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: hsla(0, 0%, 100%, 0.75);
-    
+:root {
+    --clr-bright-orange: hsl(31, 77%, 52%);
+    --clr-dark-cryan: hsl(184, 100%, 22%);
+    --clr-very-dark-cryan: hsl(179, 100%, 13%);
+    --clr-white: hsla(0, 0%, 100%, 0.75);
+    --clr-very-light-gray: hsl(0, 0%, 95%);
 }
-
-.container__1 {
-    width: 270px;
-    height: 450px;
-    background-color: hsl(31, 77%, 52%);
-    border-radius: 5px;
-    text-align: center;
-    font-size: 15px;
-    padding: 15px;
-}
-
-.container__2 {
-    width: 270px;
-    height: 450px;
-    background-color: hsl(184, 100%, 22%);
-    border-radius: 5px;
-    text-align: center;
-}
-
-.container__3 {
-    width: 270px;
-    height: 450px;    
-    background-color: hsl(179, 100%, 13%);    
-    border-radius: 5px;
-    text-align: center;
-}
-
-.botao {
-    border-radius: 26px;
-    padding: 10px 30px;
-    font-size: 16px;
-    border: none;
-    color: hsl(0, 0%, 95%);
-}
-
