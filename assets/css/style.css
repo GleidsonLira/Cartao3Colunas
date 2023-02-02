@@ -45,6 +45,17 @@ h1 {
     color: var(--clr-very-light-gray);
 }
 
+article {
+    max-width: 278px;
+    height: 500px;
+    padding: 42px;
+}
+
+article.sedans {
+    border-radius: 7px 0 0 7px;
+    background-color: var(--clr-bright-orange);
+}
+
 
 
 
