@@ -37,6 +37,14 @@ p {
     min-height: 2px;
 }
 
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: 700;
+    color: var(--clr-very-light-gray);
+}
+
 
 
 
