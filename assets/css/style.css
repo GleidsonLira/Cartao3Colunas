@@ -56,6 +56,10 @@ article.sedans {
     background-color: var(--clr-bright-orange);
 }
 
+article.suvs {
+    background-color: var(--clr-dark-cryan);
+}
+
 
 
 
@@ -68,5 +72,11 @@ article.sedans {
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    article.sedans {
+        border-radius: 7px 7px 0 0;
     }
 }
