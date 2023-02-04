@@ -60,6 +60,16 @@ article.suvs {
     background-color: var(--clr-dark-cryan);
 }
 
+article.luxury {
+    border-radius: 0 7px 7px 0;
+    background-color: var(--clr-very-dark-cryan);
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 
 
 
@@ -78,5 +88,11 @@ article.suvs {
 @media (max-width: 600px) {
     article.sedans {
         border-radius: 7px 7px 0 0;
+    }
+}
+
+@media (max-width: 600px) {
+    article.luxury {
+        border-radius: 0 0 7px 7px;
     }
 }
