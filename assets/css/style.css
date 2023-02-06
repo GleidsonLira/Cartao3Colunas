@@ -70,7 +70,47 @@ hr {
     margin-bottom: 20px;
 }
 
+.btn {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 500;
+    padding: 6% 10%;
+    border: none;
+    border-radius: 28px;
+    font-size: 0.875rem;
+    background-color: var(--clr-very-light-gray);
+    text-decoration: none;
+    cursor: pointer;
+    transition: .4s;
+}
 
+.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    opacity: .9;
+}
+
+.sedans .btn {
+    color: var(--clr-bright-orange);
+}
+
+.suvs .btn {
+    color: var(--clr-dark-cryan);
+}
+
+.luxury .btn {
+    color: var(--clr-very-dark-cryan);
+}
+
+footer {
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    margin: 12px;
+    padding: 20px 0 20px 0;
+}
+
+.attribution a {
+    text-decoration: none;
+}
 
 
 /* Responsivo*/
